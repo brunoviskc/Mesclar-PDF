@@ -1,0 +1,9 @@
+CreatePolyline("PolyLine-1-Header",0.00,630.00);
+AddSegmentToPolyline(566.00,630.00);
+AddSegmentToPolyline(566.00,0.00);
+AddSegmentToPolyline(0.00,0.00);
+AddSegmentToPolyline(0.00,630.00);
+CreateFinishedWorkpieceFromExtrusion("TAMP HOR FRE 2_5",15.00);
+SetMachiningParameters("D",1,0,0,false);
+SetAutoSetup(true);
+SetWorkpieceSetupPosition(0.00,0.00,0.00,0);
